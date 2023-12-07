@@ -8,19 +8,19 @@
       
       
       
-        <link rel="canonical" href="https://gdmend.github.io/MOCAT/examples/">
+        <link rel="canonical" href="https://arclab-mit.github.io/MOCAT_website/example/">
       
       
-        <link rel="prev" href="../api/">
+        <link rel="prev" href="../nolaunchexample/">
       
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../logo.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
     
     
       
-        <title>Examples - MIT ARCLab MOCAT</title>
+        <title>Megaconstallation Scenario - MIT ARCLab MOCAT</title>
       
     
     
@@ -76,11 +76,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#case-studies" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -110,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Examples
+              Megaconstallation Scenario
             
           </span>
         </div>
@@ -159,6 +154,8 @@
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -258,16 +255,17 @@
     
   
   
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
-        
-  
     
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../nolaunchexample/" class="md-tabs__link">
+          
   
   Examples
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -385,62 +383,92 @@
   
   
   
-    <li class="md-nav__item md-nav__item--active">
+    
+    
+    
+    
+    
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
           
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
   
   <span class="md-ellipsis">
     Examples
   </span>
   
 
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Examples
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nolaunchexample/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Examples
+    No Laucnh Scenario
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+    </li>
   
+
+              
+            
+              
+                
   
   
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#no-launch-scenario" class="md-nav__link">
-    <span class="md-ellipsis">
-      No Launch Scenario
-    </span>
-  </a>
   
-</li>
+    <li class="md-nav__item md-nav__item--active">
       
-    </ul>
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
   
-</nav>
+  <span class="md-ellipsis">
+    Megaconstallation Scenario
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -461,30 +489,9 @@
                   
 
 
-<h1 id="case-studies">Case Studies</h1>
-<h2 id="no-launch-scenario">No Launch Scenario</h2>
-<p><img alt="NoLaunch" src="../nolaunchgraphs.png" /></p>
-<pre><code class="language-MatLab">    % SCENARIO PARAMETERS
-    cfgMC.PMD = 0.95;                   % POST MISSION DISPOSAL (active sats only); ESA: 55% RB, 40% PL, 90% Const
-    cfgMC.alph = 0.01;                  % COLLISION AVOIDANCE failure probability with one sat active
-    cfgMC.alph_a = 0;                   % COLLISION AVOIDANCE failure probability with both sat active
-    cfgMC.orbtol = 5;                   % orbit control tolerance for controlled satellites [km]
-    cfgMC.step_control = 2;             % orbit control tolerance checking timesteps
-    cfgMC.P_frag = 0;                   % EXPLOSION PROBABILITY per day of Rocket Body Fragmentation (if P_frag=0, explosions are not considered!)
-    cfgMC.P_frag_cutoff = 18;           % EXPLOSION PROBABILITY age at which objects don't explode.
-    cfgMC.altitude_limit_low = 200;     % SHELL lower limit of altitude [km] 
-    cfgMC.altitude_limit_up = 2000;     % SHELL upper limit of altitude [km]
-    cfgMC.missionlifetime = 8;          % PAYLOADS operational life [years]
+  <h1>Megaconstallation Scenario</h1>
 
-    % SET PROPAGATION TIMES
-    t0_prop = 0;                                    % initial PROPAGATION time [min]
-    nyears = 10;                                    % length of PROPAGATION [years]
-    tf_prop = cfgMC.YEAR2MIN * nyears;              % length of PROPAGATION [min]
-    cfgMC.dt_days = 5;                              % CUBE METHOD and PROPAGATION sampling time [days]
-    DeltaT = cfgMC.dt_days*cfgMC.DAY2MIN;           % CUBE METHOD and PROPAGATION sampling time [min]
-    cfgMC.tsince = t0_prop:DeltaT:t0_prop+tf_prop;  % PROPAGATION time list
-    cfgMC.n_time = length(cfgMC.tsince);            % length of PROPAGATION time list
-</code></pre>
+
 
 
 
@@ -531,7 +538,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["search.highlight", "search.suggest", "navigation.tabs", "navigation.sections", "navigation.expands", "toc.integrate", "navigation.top", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.cd18aaf1.min.js"></script>
