@@ -1,0 +1,38 @@
+site_name: MIT ARCLab MOCAT
+site_url: https://gdmend.github.io/MOCAT/
+
+repo_url: https://github.mit.edu/arclab/orbitalrisk_MC
+repo_name: arclab/orbitalrisk_MC
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Home: index.md
+  - Quick-Start Guide: guide.md
+  - API Documentation: api.md
+  - Examples: examples.md
+theme:
+  name: material
+  logo: logo.png
+  favicon: logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - search.highlight
+    - search.suggest
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      primary: red
+    - scheme: slate
+      primary: red
