@@ -1,5 +1,5 @@
 site_name: MIT ARCLab MOCAT
-site_url: https://gdmend.github.io/MOCAT/
+site_url: https://arclab-mit.github.io/MOCAT_website/
 
 repo_url: https://github.mit.edu/arclab/orbitalrisk_MC
 repo_name: arclab/orbitalrisk_MC
@@ -39,3 +39,10 @@ theme:
       primary: red
     - scheme: slate
       primary: red
+
+  markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

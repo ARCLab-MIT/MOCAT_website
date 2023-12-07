@@ -1,6 +1,7 @@
 MOCAT Monte Carlo single run example:
 
-``` MatLab
+```Py linenums="1"
+
     addpath(genpath(pwd)); % just temporally include all subfolders
 
     ICfile = '2020.mat'
