@@ -1,6 +1,6 @@
 MOCAT Monte Carlo set up function and main function:
 
-``` MatLab
+``` Py
     function cfgMC = setup_MCconfig(rngseed,ICfile)
     % Setting up scenario:
     % Inputs:

@@ -13,7 +13,6 @@ Both tools exist with a basic level of functionality. MOCAT-MC runs are regularl
 * Richard Linares - Faculty Advisor
 * Di Wu - Lab Member
 * Daniel Jang - Lab Member
-* Guillermo Mendoza - Undergraduate Researcher
 
 ## Papers
 

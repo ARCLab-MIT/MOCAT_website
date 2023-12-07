@@ -13,7 +13,9 @@ nav:
   - Home: index.md
   - Quick-Start Guide: guide.md
   - API Documentation: api.md
-  - Examples: examples.md
+  - Examples: 
+      - No Laucnh Scenario: nolaunchexample.md
+      - Megaconstallation Scenario: example.md
 theme:
   name: material
   logo: logo.png
@@ -25,6 +27,7 @@ theme:
     - search.suggest
     - navigation.tabs
     - navigation.sections
+    - navigation.expands
     - toc.integrate
     - navigation.top
     - content.tabs.link
