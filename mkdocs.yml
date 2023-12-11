@@ -14,6 +14,7 @@ nav:
   - Quick-Start Guide: guide.md
   - API Documentation: api.md
   - Examples: 
+      - Quick Start: quickstart.md
       - No Laucnh Scenario: nolaunchexample.md
       - Megaconstallation Scenario: example.md
 theme:

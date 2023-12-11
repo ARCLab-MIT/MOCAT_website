@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://arclab-mit.github.io/MOCAT_website/</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://arclab-mit.github.io/MOCAT_website/api/</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://arclab-mit.github.io/MOCAT_website/example/</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://arclab-mit.github.io/MOCAT_website/guide/</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://arclab-mit.github.io/MOCAT_website/nolaunchexample/</loc>
-         <lastmod>2023-12-07</lastmod>
+         <lastmod>2023-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
